@@ -34,12 +34,12 @@ config :ethers, rpc_client: Ethereumex.HttpClient
 
 ### Keccak Module `:keccak_module`
 
-Module for Keccak-256 hashing operations. Uses `ExKeccak` by default.
+Module for Keccak-256 hashing operations. Uses `KeccakEx` by default.
 
 #### Example
 
 ```elixir
-config :ethers, keccak_module: ExKeccak
+config :ethers, keccak_module: KeccakEx
 ```
 
 ### JSON Module `json_module`

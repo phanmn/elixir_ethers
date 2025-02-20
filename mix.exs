@@ -109,14 +109,14 @@ defmodule Ethers.MixProject do
       {:ethereumex, "~> 0.10 and >= 0.10.7"},
       {:ex_abi, "~> 0.8.0", optional: System.get_env("SKIP_EX_KECCAK") == "true"},
       {:ex_doc, "~> 0.32", only: :dev, runtime: false},
-      {:ex_keccak, "~> 0.7.5"},
       {:ex_rlp, "~> 0.6.0"},
       {:ex_secp256k1, "~> 0.7.2", optional: true},
       {:excoveralls, "~> 0.10", only: :test},
       {:idna, "~> 6.1"},
       {:jason, "~> 1.4"},
       {:plug, ">= 1.0.0", only: :test},
-      {:req, "~> 0.5"}
+      {:req, "~> 0.5"},
+      {:keccak_ex, "~> 0.4.1"}
     ]
   end
 

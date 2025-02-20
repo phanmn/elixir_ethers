@@ -651,7 +651,7 @@ defmodule Ethers do
 
   @doc false
   @spec keccak_module() :: atom()
-  def keccak_module, do: Application.get_env(:ethers, :keccak_module, ExKeccak)
+  def keccak_module, do: Application.get_env(:ethers, :keccak_module, KeccakEx)
 
   @doc false
   @spec json_module() :: atom()

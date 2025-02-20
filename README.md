@@ -405,7 +405,7 @@ Ethers was possible to make thanks to the great contributors of the following li
 
 - [ABI](https://github.com/poanetwork/ex_abi)
 - [Ethereumex](https://github.com/mana-ethereum/ethereumex)
-- [ExKeccak](https://github.com/tzumby/ex_keccak)
+- [KeccakEx](https://github.com/tzumby/ex_keccak)
 
 And also all the people who contributed to this project in any ways.
 
